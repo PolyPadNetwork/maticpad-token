@@ -11,7 +11,7 @@ contract AdvisorMetric is Ownable {
 
     IERC20 public token;
 
-    uint256 public constant totalAllocation = 20e6 * 1e18;
+    uint256 public constant totalAllocation = 10e6 * 1e18;
     uint256 public constant tgeAmount = 0;
     uint256 public remainingAmount = totalAllocation - tgeAmount;
     uint256 public eachReleaseAmount = (totalAllocation * 10) / 100;
